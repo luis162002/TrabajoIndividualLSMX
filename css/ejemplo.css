@@ -1,0 +1,140 @@
+body {
+	font-family:Arial,Verdana,Helvetica,sans-serif;
+	color:#6c7b84;
+	font-size:12px;
+	background-image: url(../imagenes/fondo.jpg);
+}
+.barranegra {
+	background-color: #000;
+	height: 20px;
+	width: 100%;
+}
+#cabecera img {
+	margin-top: 39px;
+	margin-bottom: 19px;
+}
+main {
+	background-color: #fff;
+	padding: 15px;
+	width: 800px;
+	margin: auto;
+}
+header {
+	height: 90px;
+	position: relative;
+}
+header h1 {
+	font-size: 2em;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+main p {
+	width:500px ;
+	padding: 15px;
+	font-size: 125%;
+	font-weight: 100;
+}
+#doctor {
+	background-image: url(../imagenes/imgport.png);
+	height: 231px;
+	width: 177px;
+	position: absolute;
+	bottom: 0;
+	right: 50px;
+}
+nav {
+	height: 26px;
+	background-image: url(../imagenes/fondomenu.jpg);
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 15px;
+	margin-top: 10px;
+}
+nav ul { 
+    display: flex;
+	list-style: none;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+nav ul li+li{
+	border-left:1px solid #3a86b8;
+}
+nav ul li{
+	margin-top: 5px;
+}
+nav ul li a {
+	text-decoration: none;
+	margin: 10px;
+	color: #3a86b8;
+	margin: auto;
+	padding: 5px;
+}
+nav ul li a:hover {
+	background-color: #d2e9f0;
+}
+nav ul li a:active {
+	background-color:  #e9f1f4;
+}
+section#seccion1 {
+	margin-top:15px;
+	padding-left: 7px;
+	width: 65%;
+	float: left;
+}
+section h2 {
+	font-size: 175%;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+aside {
+	width: 230px;
+	float: right;
+	padding-top:36px ;
+	margin-top: 15px;
+}
+aside img#areaprivada {
+	padding-top: 15px;
+}
+#seccion2 {
+	clear: both;
+}
+h3 {
+	font-size: 18px;
+	color:#0092c5;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+time {
+	color:r #7dd0f0;
+	margin-bottom: 19px;
+}
+a {
+	color:#7dd0f0;
+}
+section#seccion2 {
+	padding-left: 15px;
+}
+section#seccion2 p {
+	width:33% ;
+	float: left;
+}
+section#seccion2 img {
+	margin-top: 15px;
+	float: right;
+}
+footer {
+	clear:both;
+	text-align: center;
+	color: rgb(124, 117, 117);
+	margin-top: 3px;
+}
+footer a {
+	text-decoration: none;
+	color: rgb(124, 117, 117);
+	padding-left: 3px;
+	padding-right: 3px;
+
+}
+footer a+a {
+	border-left: 1px solid rgb(124, 117, 117);
+}
