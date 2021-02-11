@@ -114,7 +114,7 @@ a {
 section#seccion2 {
 	padding-left: 15px;
 }
-section#seccion2 p {
+section#seccion2 div#FlotarArarticuloDeSeccion2 {
 	width:33% ;
 	float: left;
 }
